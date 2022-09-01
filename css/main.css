@@ -1,0 +1,39 @@
+* {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+
+/* html {} */
+
+body {
+    font-family: 'Rubik';
+    /* position: relative; */
+    background: linear-gradient(90deg, rgb(53, 1, 185), rgb(0, 0, 0));
+}
+
+.myCard {
+    border-radius: 8px;
+    background-color: rgb(77, 153, 228);
+    min-height: 400px;
+}
+
+/* rubik-regular - latin */
+@font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/rubik-v21-latin-regular.eot');
+    /* IE9 Compat Modes */
+    src: local(''),
+        url('../fonts/rubik-v21-latin-regular.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/rubik-v21-latin-regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/rubik-v21-latin-regular.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/rubik-v21-latin-regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/rubik-v21-latin-regular.svg#Rubik') format('svg');
+    /* Legacy iOS */
+}
