@@ -16,6 +16,7 @@ body {
     border-radius: 8px;
     background-color: rgb(77, 153, 228);
     min-height: 400px;
+    height: fit-content;
 }
 
 /* rubik-regular - latin */
