@@ -14,9 +14,14 @@ body {
 
 .myCard {
     border-radius: 8px;
-    background-color: rgb(77, 153, 228);
+    /* background-color: rgb(77, 153, 228); */
     min-height: 400px;
     height: fit-content;
+}
+
+.myBg {
+    background-color: rgb(107, 82, 50);
+    color: white;
 }
 
 /* rubik-regular - latin */
